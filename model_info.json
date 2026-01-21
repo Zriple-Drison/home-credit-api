@@ -1,0 +1,21 @@
+{
+  "model_type": "LightGBM",
+  "auc_test": 0.7775,
+  "optimal_threshold": 0.35,
+  "business_cost": 33139,
+  "n_features": 85,
+  "hyperparams": {
+    "learning_rate": 0.012707144802897091,
+    "num_leaves": 149,
+    "max_depth": 9,
+    "min_child_samples": 450,
+    "subsample": 0.8849162525493405,
+    "colsample_bytree": 0.6791913380268585,
+    "n_estimators": 1732,
+    "objective": "binary",
+    "metric": "auc",
+    "class_weight": "balanced",
+    "random_state": 42,
+    "verbose": -1
+  }
+}
